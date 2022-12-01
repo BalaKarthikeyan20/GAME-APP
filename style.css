@@ -125,14 +125,20 @@ nav ul li a:hover:before{
     width: 10%;
     padding: 10px 1%;
     text-align: center;
-
     border-radius: 500px;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
     background-size: 152% 100%;
     background: #fd4766;
     border: 2px solid #fd4766;
-    
+}.btn:hover{
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+.content h1{
+    color:grey;
+    font-size: 50px;
 }
 
     
